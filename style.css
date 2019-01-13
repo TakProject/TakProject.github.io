@@ -17,6 +17,11 @@ body {
     font-family: 'Barlow', sans-serif;
 }
 
+.nav-link:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 /*************** SWİPER ***************/
 
 .swiper-container {
