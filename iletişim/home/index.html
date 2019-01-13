@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TAK PROJECT</title>
+    <link rel="icon" type="image/png" href="img/TAKLOGO.ico" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+
+
+<div class="swiper-container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/taner-logo2.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Merhaba<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Sizin İçin Ne Yapabilirim ?
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Tasarım istiyorum</a>
+                            <a class="dropdown-item" href="#">Web site istiyorum</a>
+                            <a class="dropdown-item" href="#">Video kurgu yada montaj istiyorum</a>
+                            
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="iletişim/iletisim.html" target="_blank">İletişime Geç</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/page-1.jpg" alt="">
+        <div class="text-container">
+                <span class="text1">Merhaba!</span>
+                <span class="text2">Sizin için ne yapabilirim ?</span>
+            </div>
+        </div>
+        <div class="swiper-slide"><img src="img/xxxx.jpg" alt="">
+            <div class="text-two-container">
+                <h5>Tasarım</h5>
+            </div>
+            <div class="text-two-three-container">
+                <p><i class="fa fa-circle" aria-hidden="true"></i> 2D yada 3D yazılı logo tasarımları</p>
+                <p><i class="fa fa-circle" aria-hidden="true"></i> 2D yada 3D yazılı banner tasarımları</p>
+                <p><i class="fa fa-circle" aria-hidden="true"></i> Web siteniz için tasarımlar</p>
+                <p><i class="fa fa-circle" aria-hidden="true"></i> Sosyal medyanız için özel tasarımları</p>  
+            </div>
+        </div>
+        <div class="swiper-slide"><img src="img/page-3.jpeg" alt="">
+            <div class="text-three-container">
+                <h5>Web Site</h5>
+            </div>
+            <div class="text-three-three-container">
+                <p><i class="fa fa-circle" aria-hidden="true"></i> Dinamik web sitesi</p>
+                <p><i class="fa fa-circle" aria-hidden="true"></i> Statik web sitesi</p>
+                <p><i class="fa fa-circle" aria-hidden="true"></i> E-Ticaret sitesi</p>
+                <p><i class="fa fa-circle" aria-hidden="true"></i> Tek sayfalı web sitesi</p>
+                <p><i class="fa fa-circle" aria-hidden="true"></i> Çok sayfalı web sitesi</p>
+            </div>
+            </div>
+        <div class="swiper-slide"><img src="img/page-4.jpeg" alt="">
+            <div class="text-two-container">
+                <h5>Video</h5>
+            </div>
+            <div class="text-two-three-container">
+                <p><i class="fa fa-circle" aria-hidden="true"></i> Kurgu</p>
+                <p><i class="fa fa-circle" aria-hidden="true"></i> Montaj</p>
+                <p><i class="fa fa-circle" aria-hidden="true"></i> Çekim</p>
+                <p><i class="fa fa-circle" aria-hidden="true"></i> İntro tasarımı</p>
+            </div>
+        </div>
+        <div class="swiper-slide end"><img src="img/page-5.jpg" alt="">
+                <div class="text-three-container">
+                    <h5>İletişime Geç</h5>
+                </div>
+            <div class="text-three-three-container">
+                <p><i class="fa fa-circle" aria-hidden="true">
+                </i> Hızlı ve kolay iletişim kurabilmek için<br>
+                birazdan dolduracağınız form üzerinden<br>
+                istediğniz hizmeti benimle<br>paylaşabilirsiniz.<br>
+                1-3 Gün içinde geri dönüş<br>sağlayacağım.</p>
+                <div class="form-button">
+                    <p><a href="iletişim/index.html" target="_blank">Hemen formu doldurmaya başla</a></p>
+                </div>
+            </div>
+             
+
+        </div>
+    </div>
+            <div class="swiper-pagination"></div>
+</div>
+
+
+
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        direction: 'vertical',
+        slidesPerView: 1,
+        spaceBetween: 30,
+        mousewheel: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+</script>
+</body>
+</html>
